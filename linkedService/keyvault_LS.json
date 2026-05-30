@@ -1,0 +1,11 @@
+{
+	"name": "keyvault_LS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://vaultdheeraj.vault.azure.net/"
+		}
+	}
+}

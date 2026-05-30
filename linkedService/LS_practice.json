@@ -1,0 +1,11 @@
+{
+	"name": "LS_practice",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"sasUri": "https://adlsdheeraj.blob.core.windows.net/landing/raw/nyc.csv?sp=racwdymeop&st=2026-03-28T08:03:45Z&se=2026-04-04T16:18:45Z&spr=https&sv=2024-11-04&sr=b&sig=kuzLUnA2mVaa73kUX1u58g3DE5r5xsIPEiBfwW%2Fqwyo%3D?sp=racwdymeop&st=2026-03-28T08:03:45Z&se=2026-04-04T16:18:45Z&spr=https&sv=2024-11-04&sr=b&sig=kuzLUnA2mVaa73kUX1u58g3DE5r5xsIPEiBfwW%2Fqwyo%3D"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "tanmayadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "66cc23eb-3ac8-4840-83ab-6b3f56c85cb2",
+		"tenantId": "0b1d70f1-bc7b-4cc2-9788-18449422aa1d"
+	}
+}

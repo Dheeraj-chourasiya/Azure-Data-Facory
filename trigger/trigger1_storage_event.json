@@ -1,0 +1,25 @@
+{
+	"name": "trigger1_storage_event",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "data_ingestion_adls_sql",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/landing/blobs/source/",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/6c5b2a56-8d05-4dc4-81cd-4851419424f2/resourceGroups/Resource_dheeraj/providers/Microsoft.Storage/storageAccounts/adlsdheeraj",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
